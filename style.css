@@ -6,6 +6,14 @@ div input {
 
 } 
 
+
+div textarea{
+	display:block;
+	margin:auto;
+	padding-top: 10px;
+	border-radius:5px;
+}
+
 h1{
 	text-align:center;
 	text-decoration:none;
@@ -82,6 +90,27 @@ li a {
 	font-family:verdana, Geneva, Tahoma, sans-serif;
 	letter-spacing:5px;
 }
+
+td{
+	font-family:verdana, Geneva, Tahoma, sans-serif;
+	text-align:left;
+	height: 50px;
+    vertical-align: bottom;
+    border-bottom: 1px solid #ddd;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+    text-align:center;
+    border-bottom: 1px solid #ddd;
+    font-family:verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr:hover {background-color: LightGrey;}
 
 
 
